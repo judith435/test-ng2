@@ -12,4 +12,8 @@ export class SecondClassComponent implements OnInit {
   ngOnInit() {
   }
 
+  click(){
+    alert(Date()); 
+  }
+
 }

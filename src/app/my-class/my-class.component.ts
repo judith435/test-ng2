@@ -10,7 +10,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class MyClassComponent implements OnInit {
   @Input() myInput;
-
   constructor() { 
    
   }

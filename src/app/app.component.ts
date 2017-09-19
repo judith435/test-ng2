@@ -6,11 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
-  myName;
+  title = 'appi mapi';
+  myName = "gunibush";
 
   buttonClick() {
-    this.myName = 'hello';
+    let greeting = "";
+    greeting = 'hello ';
+    greeting += this.myName + " -> the time is: " + Date();
+    this.myName = greeting;
   }
 }
  
